@@ -1,0 +1,51 @@
+Priya Tomar
+Assignment07
+09/15/2024
+https://github.com/Scorpiopiya2207/IntroToProg-Python
+Student Course Registration Program
+Introduction
+This document outlines the process of developing a Python script to manage student course registrations for Assignment07. The program uses object-oriented programming (OOP) principles and follows the separation of concerns (SOC) pattern to ensure the modular organization of code. Key functionalities include student registration, displaying registered students, saving data to a JSON file, and error handling. This assignment emphasizes the use of classes, file handling, and structured program flow.
+Topic Covered
+Steps Taken to Perform the Assignment
+Step 1: Understanding the Requirements
+The assignment required a program that allows users to register students for courses, display registered students, and save the data to a JSON file. The program also needed to include appropriate error handling, especially for user input and file operations. The instructions highlighted the importance of using OOP concepts and the SOC pattern for efficient code organization.
+Step 2: Setting Up the Script
+I created a new Python script named Assignment07.py and added a header with the title, description, and changelog to keep track of updates. This helps in organizing the code and understanding its purpose at a glance.
+Figure 1: Header
+ Step 3: Setting up Constants and Variables
+I defined constants and variables to be used throughout the program. These include the menu options displayed to the user and the file name for saving student data.
+Figure 2: Constants and Variables
+ Step 4: Creating Classes and Functions
+I implemented OOP principles by creating two classes: Person and Student. The Person class captures the basic attributes of a person (first and last name), while the Student class extends Person to include course registration details. I also created a File Processor class to handle reading and writing data to/from a JSON file, and an IO class for input/output operations.
+Figure 3: Classes and Functions
+class Person:
+    # Code to handle first and last names
+
+class Student(Person):
+    # Code to handle student and course registration
+
+class FileProcessor:
+    # Code for file handling
+
+class IO:
+    # Code for input/output operations
+Step 5: Building the Main Program Loop
+Using a while loop, I created a menu-driven interface where users can:
+1.	Register a student for a course.
+2.	View the list of registered students.
+3.	Save data to the JSON file.
+4.	Exit the program.
+Each menu option is handled with appropriate functions and file interactions.
+Figure 4: Main Program Loop
+Step 6: Testing the Program
+ 
+I tested the program in both PyCharm and the terminal to ensure that all functionalities worked as expected. The test scenarios included:
+•	Registering multiple students and displaying their data.
+•	Saving and loading data from a JSON file.
+•	Ensuring proper error handling for incorrect input and file errors.
+Figure 6: Output Example
+ 
+ 
+Summary
+This assignment was an excellent exercise in applying OOP principles and file handling techniques in Python. By organizing the program using the SOC pattern, I was able to separate concerns like user interaction, file operations, and data handling into distinct components, improving code readability and maintainability. The program successfully captured, displayed, and saved student registration data, reinforcing my understanding of Python's OOP and file handling capabilities.
+
